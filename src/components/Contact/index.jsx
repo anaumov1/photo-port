@@ -12,8 +12,6 @@ function ContactForm() {
     setFormState({ ...formState, [e.target.name]: e.target.value });
   }
 
-  console.log(formState);
-
   return (
     <section>
       <h1>Contact me</h1>
